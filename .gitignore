@@ -1,5 +1,8 @@
-src/github.com/aws/
 pkg/
+src/*
+!src/github.com/
+src/github.com/*
+!src/github.com/jordanblakey
 
 ### Go ###
 # Binaries for programs and plugins
