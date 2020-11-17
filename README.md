@@ -85,3 +85,15 @@ go test # test packages
 go version # print Go version
 go vet # report likely mistakes in packages
 ```
+
+## Development: Common Go Commands
+
+```sh
+# To run a source file in development, run
+go run ./01_hello/main.go
+# To compile to $GOPATH/bin, run from dir with target Go file (entry point)
+go install
+# This produces an executable in $GOPATH/bin
+cd $GOPATH/bin
+./01_hello # => "Hello world!"
+```
