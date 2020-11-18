@@ -3,6 +3,7 @@ src/*
 !src/github.com/
 src/github.com/*
 !src/github.com/jordanblakey
+bin/
 
 ### Go ###
 # Binaries for programs and plugins
